@@ -8,6 +8,7 @@
 
 import UIKit
 import Kingfisher
+import AVFoundation
 
 class SearchViewController: UIViewController {
     
@@ -115,9 +116,6 @@ extension SearchViewController : UISearchBarDelegate {
                 self.resultCollectionView.reloadData()
             }
         }
-        
-        
-        
         print("-->검색어 \(searchTerm)")
     }
 }
